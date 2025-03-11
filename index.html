@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .maintitle{
+        text-align: center;
+        padding: 50px;
+        text-transform: uppercase;
+    }
+    .contain{
+        display: flex;
+    }
+    .contain .box{
+        width: 25%;
+        transition: 1s;
+        margin-right: 50px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .contain .image img{
+        width: 100%;
+    }
+    .contain .box:hover{
+        transform: translateY(10px);
+    }
+    .contain .box .brand{
+        color:rgb(165, 163, 163);
+        font-size: 14px;
+    }
+    .contain .box .title{
+        color:rgb(190, 11, 11);
+        font-size: 20px;
+    }
+    .contain .box .price{
+        color:rgb(131, 9, 9);
+        font-size: 19px;
+    }
+    .contain .box .cart{
+        padding: 10px 50px;
+        background: #fff;
+        border: 1px solid #c5c3c3;
+        color:lightslategray;
+        margin-top: 20px;
+    }
+
+
+</style>
+<body>
+    <div class="maintitle">
+    <h1>Latest Arrivals</h1>
+    </div>
+    <div class="contain">
+        <div class="box">
+            <div class="image">
+            <img src="product_1.jpg" alt="1">
+            </div>
+            <div class="detais">
+                <h1 class="brand">FOSSIL</h1>
+                <h2 class="title">BERING ROSE GOLD STEEL MESH</h2>
+                <p class="price">$100.00 - $350.00</p>
+                <button class="cart">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="product_2.jpg" alt="2">
+                </div>
+                <div class="detais">
+                    <h1 class="brand">FOSSIL</h1>
+                    <h2 class="title">XORUS YOUTH BLACK RED</h2>
+                    <p class="price">$100.00</p>
+                    <button class="cart">ADD TO CART</button>
+                </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="product_3.jpg" alt="3">
+                </div>
+                <div class="detais">
+                    <h1 class="brand">FOSSIL</h1>
+                    <h2 class="title">BERING AURORA COLLECTION</h2>
+                    <p class="price">$90.00</p>
+                    <button class="cart">ADD TO CART</button>
+                </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="product_4.jpg" alt="4">
+                </div>
+                <div class="detais">
+                    <h1 class="brand">FOSSIL</h1>
+                    <h2 class="title">TIMBERLAND HERITAGE REIMAGED</h2>
+                    <p class="price">$59.00</p>
+                    <button class="cart">ADD TO CART</button>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
